@@ -6,7 +6,7 @@ namespace jogo_da_forca
         bool perdeu, ganhou;
         Random random;
         int erros;
-        string [] palavras = {"teste","sei la","maca"};
+        string [] palavras = {"caderno","cachorra","nintendo","tangamandapio","kevin","secreta","vagabunda","teste","palavra","forca","salve","maezinha","corno","bolsomito"};
         string palavraSelecionada;
         char [] letrasAcertadas;
 
