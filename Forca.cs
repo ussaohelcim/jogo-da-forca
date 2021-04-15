@@ -3,23 +3,22 @@ namespace jogo_da_forca
 {
     public class Forca
     {
-        bool perdeu, ganhou;
         Random random;
         int erros;
         string [] palavras = {"caderno","cachorra","nintendo","tangamandapio","kevin","secreta","vagabunda","teste","palavra","forca","salve","maezinha","corno","bolsomito"};
         string palavraSelecionada;
         char [] letrasAcertadas;
 
-        public void CLS() => Console.Clear();
+        public void CLS() => Console.Clear();//limpar o console
         public void Inicio()
-        {
+        {//função para iniciar um novo jogo
             random = new Random();
             erros = 0;
             palavraSelecionada = palavras[random.Next(palavras.Length)];
             letrasAcertadas = new char[palavraSelecionada.Length];
 
             for (int i = 0; i < palavraSelecionada.Length; i++)
-            {
+            {//determina a quantidade de * que vai aparecer
                 letrasAcertadas[i] = '*';
             }
             CLS();
@@ -48,31 +47,25 @@ namespace jogo_da_forca
                 }
                 NovaRodada();
             }
-
         }
         void GameOver()
         {
             CLS();
             Console.WriteLine("Parabens, você perdeu! A palavra que escolhi foi: "+palavraSelecionada);
         }
-        void Winner()
-        {
-            Console.WriteLine("Infelizmente você ganhou. ;-;");
-        }
+        void Winner() => Console.WriteLine("Infelizmente você ganhou. ;-;");
         bool ChecarSePerdeu() => erros >= 6 ? true : false;
         bool ChecarSeGanhou()
         {
             string a = new string(letrasAcertadas);
             string b = palavraSelecionada;
             return a == b ? true : false;
-        } 
-        public char LerLetra()
-        {
-            return Console.ReadLine()[0];
         }
-        
+        public char LerLetra() => Console.ReadLine()[0];
+
         public string DesenharForca()
         {
+
             switch (erros)
             {
                 case 0:
@@ -171,11 +164,8 @@ return @"
                     if(!acertouAlgo) acertouAlgo = true;
                 } 
             }
+            if(!acertouAlgo) Console.Beep();
             return acertouAlgo;
-        }
-        public void ChecaPalavra()
-        {
-            
         }
     }
 }
