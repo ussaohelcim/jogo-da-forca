@@ -1,0 +1,16 @@
+D:\20211\projetos git\jogo-da-forca\bin\Debug\net5.0\jogo-da-forca.exe
+D:\20211\projetos git\jogo-da-forca\bin\Debug\net5.0\jogo-da-forca.deps.json
+D:\20211\projetos git\jogo-da-forca\bin\Debug\net5.0\jogo-da-forca.runtimeconfig.json
+D:\20211\projetos git\jogo-da-forca\bin\Debug\net5.0\jogo-da-forca.runtimeconfig.dev.json
+D:\20211\projetos git\jogo-da-forca\bin\Debug\net5.0\jogo-da-forca.dll
+D:\20211\projetos git\jogo-da-forca\bin\Debug\net5.0\ref\jogo-da-forca.dll
+D:\20211\projetos git\jogo-da-forca\bin\Debug\net5.0\jogo-da-forca.pdb
+D:\20211\projetos git\jogo-da-forca\obj\Debug\net5.0\jogo-da-forca.csprojAssemblyReference.cache
+D:\20211\projetos git\jogo-da-forca\obj\Debug\net5.0\jogo-da-forca.GeneratedMSBuildEditorConfig.editorconfig
+D:\20211\projetos git\jogo-da-forca\obj\Debug\net5.0\jogo-da-forca.AssemblyInfoInputs.cache
+D:\20211\projetos git\jogo-da-forca\obj\Debug\net5.0\jogo-da-forca.AssemblyInfo.cs
+D:\20211\projetos git\jogo-da-forca\obj\Debug\net5.0\jogo-da-forca.csproj.CoreCompileInputs.cache
+D:\20211\projetos git\jogo-da-forca\obj\Debug\net5.0\jogo-da-forca.dll
+D:\20211\projetos git\jogo-da-forca\obj\Debug\net5.0\ref\jogo-da-forca.dll
+D:\20211\projetos git\jogo-da-forca\obj\Debug\net5.0\jogo-da-forca.pdb
+D:\20211\projetos git\jogo-da-forca\obj\Debug\net5.0\jogo-da-forca.genruntimeconfig.cache
